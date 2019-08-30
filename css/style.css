@@ -1,0 +1,191 @@
+
+body{position: relative;background:#fff;}
+header{background-color: black;}
+h1 span{color:#FB6E52; }
+hr{width: 100px;color: black;}
+
+
+
+
+
+.fas{color: white;}
+.navbar-brand {color: white;font-size: 25px;font-weight: bold;}
+.navbar-brand:hover{color: white;}
+.navbar-brand span{color:#FB6E52; }
+.navbar-nav a{color: white;}
+.navbar-expand-lg .navbar-nav .nav-link { padding-right: 1.5rem; padding-left: 1.5rem;}
+.trial-axit{background-image: url(../image/Clip.png);height: 710px;position: relative;}
+.overlay{ background: rgba(119,96,102,41%);width: 100%;height: 100%;}
+.line::after{content:'___________';    font-weight: 900;color:white;;font-size: 23px;}
+.line{height: 50px;}
+.trial-axit h1{color: white;}
+.trial-axit h2{color: white;font-size: 37px;}
+.trial-axit p{color: white;font-size: 20px;font-weight:bold;margin-bottom: 30px;}
+.input-group {padding-bottom:32px;    padding-left: 10px; padding-right: 10px;}
+.child{ top: 200px;}
+.child a{color: white;border: solid 1px white; background-color: transparent;padding: 5px 20px 5px 20px;text-decoration: none; }
+.sec-child{background-color: white;padding-right: 0;padding-left: 0;top:225px;}
+.sec-child h3{font-size: 18px;background-color: #eee;padding:15px 0;text-align: center;}
+.sec-child h4{font-size: 18px;background-color: #FB6E52;padding:15px 0;text-align: center;    margin-bottom: auto;border-bottom: 3px solid black;}
+.sec-child h3 span{color:#FB6E52; }
+.sec-child a{    text-decoration: none;color: white; }
+.social{position: relative; top: 20px;}
+/*social*/
+.social p{font-size: 12px;font-weight: 700;color: #86878B;}
+.icon{color: #CCCCCC;font-size: 40px;}
+.fab {padding: 17px;}
+.far {padding: 23px;}
+/*tab*/
+
+.information {background-color: #ececec;padding: 30px 0 ; font-size: 18px;margin: 20px 0px;  }
+.information .h1{ font-size: 50px; color: #848484;   }
+
+.information .info-list li{display:table;background-color:black;padding: 15px;font-size: 22px;
+cursor: pointer;margin: 2px;width: 98px;height: 79px;text-align: center;line-height: 3;color: white;}
+.information .info-contact{  margin-bottom: 30px;    }
+.information .info-contact > div{padding: 20px;}
+.information .info-contact > div:not(:first-of-type){display: none;line-height: 2;}
+.information .info-list li.selected{background-color: #FB6E52;   color:white;    width: 98px;
+ height: 79px;    text-align: center;line-height: 3;}
+.about h1{font-size:20px;margin-bottom: 27px;color: black;}
+.about p{font-size: 15px;}
+.about {font-size:16px;color: #86878B;}
+.about button{background-color: #FB6E52;border: none;padding: 6px 42px}
+.information .list-list{margin-left: -44px;}
+.history h1{font-size:20px;margin-bottom: 27px;color: black;}
+.history p{line-height: 1.4;font-size: 15px;}
+.history {font-size:16px;color: #86878B;}
+.history button{background-color: #FB6E52;border: none;padding: 4px 42px}
+.spec h1{font-size:20px;margin-bottom: 27px;color: black;}
+.spec h1{font-size:20px;margin-bottom: 27px;color: black;}
+.spec {font-size:16px;color: #86878B;}
+.spec button{background-color: #FB6E52;border: none;padding: 4px 42px}
+.spec p{line-height: 1.4;font-size: 15px;}
+/*blog*/
+.blog-img{text-align: left;}
+.blog-img img{width: 100%;}
+.blog-line::after{content:'___________';    font-weight: 900;color:#FB6E52;font-size: 23px;}
+.blog-line{height: 50px;}
+.blog-info h1{font-size: 18px;}
+.blog-info p{font-size: 18px;color: #86878B;}
+.blog-icon .far{font-size: 48px;color:#FB6E52;margin-left: -24px;margin-top: -25px;}
+
+/*sec-blog*/
+
+.sec-blog{background-color: #ececec;padding:60px 0;}
+.sec-blog p{color: #86878B; font-size: 16px;line-height: 2;}
+.sec-blog h1{line-height: 3;font-size: 23px;margin-bottom: -12px;}
+.sec-blog img{width: 100%;}
+/*feature*/
+.feature{padding: 60px 0;text-align: center;}
+.feature h1{text-align: center;}
+.feature h3{text-align: center;font-size: 16px;color: #86878B;margin-bottom: 42px;}
+.feature-line::after{content:'___________';    font-weight: 900;color:#FB6E52;;font-size: 23px;}
+.feature-line{height: 50px;text-align: center;}
+.feature .far{border: 1px solid #FB6E52;border-radius: 50%;font-size:27px;margin-bottom: 28px; }
+
+
+/*pricing*/
+.pricing{padding: 60px 0;background-color: #ececec;}
+.pricing h1{text-align: center;}
+.pricing h3{text-align: center;font-size: 16px;color: #86878B;margin-bottom: 42px;}
+.pricing-line::after{content:'___________';font-weight: 900;color:#FB6E52;font-size: 23px;}
+.dollar{background-color: black;color: white;font-size: 63px;text-align: center;margin-bottom: 1px;}
+.list-group-item{text-align: center;line-height: 1;}
+.one{background-color: black;color: white;margin-bottom: 1px;}
+.three{background-color: black;color: white;border-bottom: 4px solid #FB6E52;}
+.four{background-color:#FB6E52;color: white; }
+
+/*customer-say*/
+
+.customer-say{padding: 60px 0;}
+.customer-say h1{text-align: center;}
+.customer-say h3{text-align: center;font-size: 16px;color: #86878B;margin-bottom: 42px;}
+.customer-say p{background-color:#ececec; padding: 20px 15px 20px 15px;;font-size: 19px;color: #86878B;}
+.customer-say img{width: 100%;}
+.customer-say h2{font-size: 22px;margin-top: 15px;}
+.customer-say h4{font-size: 18px;color: #86878B;}
+
+
+/*last-line*/
+.last-download{text-align: center;background-image: url(../Clip.png);}
+.last-info{padding: 60px 0;}
+.last-line::after{content:'___________';    font-weight: 900;color:white;font-size: 23px;}
+.last-line{height: 50px;text-align: center;}
+.last-info h1{text-align: center;color: white;}
+.last-info h3{text-align: center;font-size: 16px;color:white;margin-bottom: 42px;}
+.last-info a{text-align: center;text-decoration: none;color:white;margin:auto;border: 2px solid white;background-color: transparent;padding: 7px 25px 7px 25px;}
+
+/*contact*/
+.contact-us{margin: 60px auto;}
+
+.contact-line::after{content:'___________';    font-weight: 900;color:#FB6E52;font-size: 23px;}
+.contact-line{height: 50px;text-align: center;}
+.contact-us h1{text-align: center;color: black;}
+.contact-us h3{text-align: center;font-size: 16px;color: #86878B;margin-bottom: 42px;}
+textarea.form-control {height: 146px !important;}
+.contact-us button{background-color: #FB6E52;border: none;padding: 6px 42px;margin: auto}
+
+/*footer*/
+.footer{background-color: black;padding: 5px 0;}
+.footer-icon{color:#CCCCCC;font-size: 20px;text-align: center;}
+.footer h3{text-align: center;font-size: 12px;color: white;}
+
+
+
+@media(max-width:768px){
+.trial-axit h2{text-align: center;font-size: 20px}
+.trial-axit h1 {text-align: center;}
+.trial-axit p {text-align: center;font-size: 20px;}
+.line{text-align: center;}
+.child {top: 23px;}
+.sec-child { top: 51px;}
+.social{position: relative; top: 100px;} 
+.fab {padding: 5px;}
+.far {padding: 5px;}
+.icon{font-size: 28px;} 
+.about .col-xl-6 {text-align: center;margin-top: 17px;}
+.history .col-xl-6 {text-align: center;margin-top: 17px;}
+.spec .col-xl-6 {text-align: center;margin-top: 17px;}
+.information{    position: relative;bottom: -167px;right: 0;left: 0;}
+.information .info-list li {width: 100%;}  
+.information .info-list li.selected{width: 100%;}    
+.information .list-list {margin: inherit;padding-left: 0;}   
+.about img{width: 100%;}  
+.history img{width: 100%;}  
+.spec img{width: 100%;}  
+.blog{position: relative;top: 64%;text-align: center;margin-top: 183px;} 
+.blog-icon .far{font-size: 30px;margin-left: 0;position: absolute; bottom: -32px; left: 54px;}
+.blog-icon p{text-justify: inter-character;}
+.sec-blog{position: relative;top: 65%; }  
+.sec-blog p{text-align: center;}
+.sec-blog h1{text-align: center;}
+.sec-blog .blog-line{text-align: center;}
+.feature{position: relative;top: 64%;}   
+.feature h1 {font-size:23px;} 
+.feature h3 {font-size:19px;} 
+.feature .far{font-size:16px; }
+.pricing{position: relative;top: 63%;}
+.card{width: 100% ! important;}   
+.last-item{    margin-top: 17px;}   
+.customer-say img{width: 32%;} 
+.last-info h1{font-size: 16px}
+.last-info h3{font-size: 12px;}
+.contact-us h3{font-size: 12px;}    
+.customer-say h1 {font-size: 14px;}  
+.customer-say h3 {font-size: 12px;}  
+.pricing h1 {font-size: 14px;}  
+.pricing h3 {font-size: 12px;}   
+.customer-say p{text-align: center;}    
+.wrap-wrap {display:flex; flex-wrap: wrap-reverse;}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
